@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato';
   background-color: #F7F7F7;
@@ -69,6 +73,7 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
 }
 
 header.masthead .masthead-content {
@@ -120,10 +125,6 @@ header.masthead .bg-circle-4 {
 }
 
 @media (min-width: 992px) {
-  header.masthead {
-    /* padding-top: calc(10rem + 55px); */
-    /* padding-bottom: 10rem; */
-  }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
   }
@@ -182,4 +183,13 @@ header.masthead .bg-circle-4 {
 
 .btn-cta {
   width: 300px;
+}
+
+#section-1 {
+  padding-top: 32px;
+}
+
+.btn-cta_vitrines {
+  background-color: #f5aab9;
+  border-color: #f5aab9;
 }
