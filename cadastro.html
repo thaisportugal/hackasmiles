@@ -16,42 +16,120 @@
     </div>
     <div id="formContent">
 
-      <h2 class="form-title">Cadastre-se</h2>
-  
-      <form class="mt-2">
-        <input type="text" id="login" class="fadeIn first" name="login" placeholder="Nome Completo">
+      <form class="mt-2 container form_manda-pitch px-3">
 
-        <input type="nascimento" id="password" class="fadeIn second" name="login" placeholder="Data de Nascimento">
-            <input type="endereco" id="login" class="fadeIn first" name="login" placeholder="Endereço">
-        <input type="numero" id="password" class="fadeIn second" name="login" placeholder="Número">
-         <input type="bairro" id="password" class="fadeIn second" name="login" placeholder="Bairro">
-          <input type="data" id="password" class="fadeIn second" name="login" placeholder="Cidade">
-           <input type="data" id="password" class="fadeIn second" name="login" placeholder="Estado">
-           <input type="telefone" id="password" class="fadeIn second" name="login" placeholder="CEP">
-                    <input type="telefone" id="password" class="fadeIn second" name="login" placeholder="Telefone">
-                    <input type="telefone" id="password" class="fadeIn second" name="login" placeholder="Celular">
-              <input type="email" id="login" class="fadeIn first" name="login" placeholder="E-mail">
-              <input type="email" id="login" class="fadeIn first" name="login" placeholder="Confirme o seu e-mail">
-        <input type="email" id="password" class="fadeIn second" name="login" placeholder="Senha">
-        <input type="email" id="password" class="fadeIn second" name="login" placeholder="Confirme a sua Senha">
-<!--         <input type="submit" class="fadeIn fourth login-btn" value="Cadastrar">
- -->      </form>
-  
-      <div class="container" id="formFooter">
-        <div class="row">
-           <div class="col-6">
-            <a class="underlineHover forgot-pwd" href="#">Depois que terminar o Formulário do Projeto, finalize o seu cadastro!</a>
+        <!-- INFORMAÇÕES PESSOAIS -->
+        <div class="row mb-2">
+          <div class="col-12">
+            <h2 class="form-title">Informações pesssoais</h2>
           </div>
-          <div class="col-6">
-            <a class="fadeIn fourth login-btn formulario-btn". href="https://forms.gle/4oUhhCghrWvx9ZJx7">Formulário do Projeto</a>
-            <div class="col-6">
-            <a class="underlineHover logi-btn for-btn" href="#">Cadastrar</a>
-          </div>
-<!--             <a class="underlineHover" href="#">Formulário do Projeto</a>
- -->          </div>
         </div>
-      </div>
-  
+        <div class="row mb-3">
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="nome" class="align-self-start form-cadastro_label">Nome completo</label>
+            <input type="text" id="nome" class="fadeIn first" name="nomeCompleto">
+          </div>
+
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="data_nascimento" class="align-self-start form-cadastro_label">Data de Nascimento</label>
+            <input type="date" id="data_nascimento" class="fadeIn second" name="dataNascimento" placeholder="Data de Nascimento">
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="telefone_residencial" class="align-self-start form-cadastro_label">Telefone residencial</label>
+            <input type="text" id="telefone_residencial" class="fadeIn second" name="telefoneResidencial">
+          </div>
+
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="telefone_celular" class="align-self-start form-cadastro_label">Celular</label>
+            <input type="text" id="telefone_celular" class="fadeIn second" name="telefoneCelular">
+          </div>
+        </div>
+
+        <!-- ENDEREÇO -->
+        <div class="row mb-2">
+          <div class="col-12">
+            <h2 class="form-title">Endereço</h2>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="rua" class="align-self-start form-cadastro_label">Rua</label>
+            <input type="text" id="rua" class="fadeIn first" name="rua">
+          </div>
+
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="numero" class="align-self-start form-cadastro_label">Número</label>
+            <input type="text" id="numero" class="fadeIn second" name="numero">
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="bairro" class="align-self-start form-cadastro_label">Bairro</label>
+            <input type="text" id="bairro" class="fadeIn second" name="bairro">
+          </div>
+
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="cidade" class="align-self-start form-cadastro_label">Cidade</label>
+            <input type="text" id="cidade" class="fadeIn second" name="cidade">
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="estado" class="align-self-start form-cadastro_label">Estado</label>
+            <input type="text" id="estado" class="fadeIn second" name="estado">
+          </div>
+
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="cep" class="align-self-start form-cadastro_label">CEP</label>
+            <input type="text" id="cep" class="fadeIn second" name="login">
+          </div>
+        </div>
+
+        
+        <!-- INFORMAÇÕES DE ACESSO -->
+        <div class="row mb-2">
+          <div class="col-12">
+            <h2 class="form-title">Informações de acesso</h2>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="email" class="align-self-start form-cadastro_label">E-mail</label>
+            <input type="text" id="email" class="fadeIn first" name="email">
+          </div>
+
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="confirmaEmail" class="align-self-start form-cadastro_label">Confirme o seu e-mail</label>
+            <input type="text" id="confirmaEmail" class="fadeIn first" name="confirmaEmail">
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="senha" class="align-self-start form-cadastro_label">Senha</label>
+            <input type="password" id="senha" class="fadeIn second" name="senha">
+          </div>
+
+          <div class="col-6 d-flex flex-column justify-content-start">
+            <label for="confirmaSenha" class="align-self-start form-cadastro_label">Confirme sua senha</label>
+            <input type="password" id="confirmaSenha" class="fadeIn second" name="confirmaSenha">
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-12">
+            <input type="submit" class="fadeIn fourth formulario-btn" value="Finalizar cadastro">
+          </div>
+        </div>
+              
+     </form>
     </div>
   </div>
 

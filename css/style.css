@@ -96,7 +96,7 @@ h2.active {
 
 /* FORM TYPOGRAPHY*/
 
-input[type=button], input[type=submit], input[type=reset], .formulario-btn  {
+input[type=button], input[type=reset], .formulario-btn  {
   background-color: #ba8ff8;
   border: none;
   color: white;
@@ -141,7 +141,7 @@ input[type=button], input[type=submit], input[type=reset], .formulario-btn  {
   transition: all 0.3s ease-in-out;
 }*/
 
-input[type=submit1]  {
+/* input[type=submit1]  {
     background-color: #ba8ff8;
   border: none;
   color: white;
@@ -161,9 +161,9 @@ input[type=submit1]  {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-}
+} */
 
-input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+input[type=button]:hover, input[type=reset]:hover  {
   background-color: #ba8ff8;
 }
 
@@ -175,16 +175,14 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   transform: scale(0.95);
 }
 
-input[type=text] {
+.form_manda-pitch input {
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
-  margin: 8px;
   width: 66%;
   margin-right: 10px;
   border: 2px solid #f6f6f6;
@@ -197,7 +195,7 @@ input[type=text] {
   border-radius: 5px 5px 5px 5px;
 }
 
-input[type=password] {
+/* input[type=password] {
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -216,9 +214,9 @@ input[type=password] {
   transition: all 0.5s ease-in-out;
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
-}
+} */
 
-input[type=text1] {
+/* input[type=text1] {
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -237,9 +235,9 @@ input[type=text1] {
   transition: all 0.5s ease-in-out;
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
-}
+} */
 
-input[type=nascimento]{
+/* input[type=nascimento]{
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -259,9 +257,9 @@ input[type=nascimento]{
   transition: all 0.5s ease-in-out;
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
-}
+} */
 
-input[type=bairro], [type=numero]
+/* input[type=bairro], [type=numero]
   {
   background-color: #f6f6f6;
   border: none;
@@ -282,9 +280,9 @@ input[type=bairro], [type=numero]
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
 
-}
+} */
 
-input[type=endereco]
+/* input[type=endereco]
   {
   background-color: #f6f6f6;
   border: none;
@@ -305,10 +303,10 @@ input[type=endereco]
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
 
-}
+} */
 
 
-input[type=email]
+/* input[type=email]
   {
   background-color: #f6f6f6;
   border: none;
@@ -329,10 +327,10 @@ input[type=email]
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
 
-}
+} */
 
 
-input[type=telefone]
+/* input[type=telefone]
   {
   background-color: #f6f6f6;
   border: none;
@@ -354,9 +352,9 @@ input[type=telefone]
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
 
-}
+} */
 
-input[type=data]
+/* input[type=date]
   {
   background-color: #f6f6f6;
   border: none;
@@ -377,7 +375,7 @@ input[type=data]
   -webkit-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
 
-}
+} */
 
 input[type=text]:focus {
   background-color: #fff;
@@ -522,5 +520,24 @@ input[type=text]:placeholder {
   font-weight: bold;
 }
 
+.form-cadastro_label {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 0px;
+}
+
+.form_manda-pitch input[type=text], .form_manda-pitch input[type=password], .form_manda-pitch input[type=date]{
+  min-width: 100%;
+}
+
+.form_manda-pitch input[type=submit] {
+  background-color: #ba8ff8;
+  color: white;
+  width: 300px;
+}
+
+.form_manda-pitch p {
+  text-align: left;
+}
 
 
