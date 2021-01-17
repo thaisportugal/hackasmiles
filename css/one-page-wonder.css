@@ -6,6 +6,7 @@
 
 body {
   font-family: 'Lato';
+  background-color: #F7F7F7;
 }
 
 h1,
@@ -47,6 +48,10 @@ h6 {
   font-weight: 700;
 }
 
+.navbar-custom .navbar-brand img {
+  height: 60px;
+}
+
 .navbar-custom .navbar-nav .nav-item .nav-link {
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -57,13 +62,14 @@ h6 {
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  /* padding-top: calc(7rem + 72px); */
+  /* padding-bottom: 7rem; */
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+  background-color: ;
 }
 
 header.masthead .masthead-content {
@@ -116,8 +122,8 @@ header.masthead .bg-circle-4 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+    /* padding-top: calc(10rem + 55px); */
+    /* padding-bottom: 10rem; */
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
@@ -132,13 +138,13 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #BA8FF8;
+  border-color: #BA8FF8;
 }
-
+ 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: #BA8FF8 !important;
+  border-color: #BA8FF8 !important;
 }
 
 .btn-primary:focus {
@@ -157,4 +163,17 @@ header.masthead .bg-circle-4 {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.logo-header {
+  height: 400px;
+  margin-top: 80px;
+}
+
+.color-pitch {
+  color: #BA8FF8;
+}
+
+.btn-cta {
+  width: 300px;
 }
