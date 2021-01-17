@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Lato';
   background-color: #F7F7F7;
@@ -69,6 +73,7 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
 }
 
 header.masthead .masthead-content {
