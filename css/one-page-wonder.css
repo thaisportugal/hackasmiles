@@ -69,7 +69,6 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  background-color: ;
 }
 
 header.masthead .masthead-content {
@@ -168,6 +167,13 @@ header.masthead .bg-circle-4 {
 .logo-header {
   height: 400px;
   margin-top: 80px;
+}
+
+@media screen and (max-width: 568px) {
+  .logo-header {
+    width: 250px;
+    height: 250px;
+  }
 }
 
 .color-pitch {
