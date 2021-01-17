@@ -310,6 +310,13 @@ input[type=text]:placeholder {
   width: 300px;
 }
 
+@media (max-width: 598px){
+  .form_manda-pitch input[type=submit] {
+    min-width: 100%;
+    margin: 0px;
+  }
+}
+
 .form_manda-pitch p {
   text-align: left;
 }
