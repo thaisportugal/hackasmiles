@@ -321,4 +321,9 @@ input[type=text]:placeholder {
   text-align: left;
 }
 
+.formulario-btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 
