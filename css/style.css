@@ -1,10 +1,6 @@
 
 /* BASIC */
 
-html {
-  background-color: #ba8ff8;
-}
-
 body {
   font-family: "Poppins", sans-serif;
   height: 100vh;
@@ -324,6 +320,12 @@ input[type=text]:placeholder {
 .formulario-btn:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.error {
+  color: #ba8ff8;
+  text-align: left;
+  font-weight: bold;
 }
 
 
