@@ -8,7 +8,7 @@ body {
 }
 
 a {
-  color: #ba8ff8;
+  color: #f95a03;
   display:inline-block;
   text-decoration: none;
   font-weight: 400;
@@ -93,7 +93,7 @@ h2.active {
 /* FORM TYPOGRAPHY*/
 
 input[type=button], input[type=reset], .formulario-btn  {
-  background-color: #ba8ff8;
+  background-color: #f95a03;
   border: none;
   color: white;
   padding: 15px 80px;
@@ -116,7 +116,7 @@ input[type=button], input[type=reset], .formulario-btn  {
 
 
 input[type=button]:hover, input[type=reset]:hover  {
-  background-color: #ba8ff8;
+  background-color: #f95a03;
 }
 
 input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
@@ -127,7 +127,7 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
   transform: scale(0.95);
 }
 
-.form_manda-pitch input {
+.form_smiles input {
   background-color: #f6f6f6;
   border: none;
   color: #0d0d0d;
@@ -149,17 +149,17 @@ input[type=button]:active, input[type=submit]:active, input[type=reset]:active  
 
 input[type=text]:focus {
   background-color: #fff;
-  border-bottom: 2px solid #ba8ff8;
+  border-bottom: 2px solid #f95a03;
 }
 
 input[type=password]:focus {
   background-color: #fff;
-  border-bottom: 2px solid #ba8ff8;
+  border-bottom: 2px solid #f95a03;
 }
 
 input[type=data]:focus {
   background-color: #fff;
-  border-bottom: 2px solid #ba8ff8;
+  border-bottom: 2px solid #f95a03;
 }
 
 input[type=text]:placeholder {
@@ -257,13 +257,13 @@ input[type=text]:placeholder {
   bottom: -10px;
   width: 0;
   height: 2px;
-  background-color: #ba8ff8;
+  background-color: #f95a03;
   content: "";
   transition: width 0.2s;
 }
 
 .underlineHover:hover {
-  color: #ba8ff8;
+  color: #f95a03;
 }
 
 .underlineHover:hover:after{
@@ -283,7 +283,7 @@ input[type=text]:placeholder {
 }
 
 .forgot-pwd, .form-title {
-  color: #ba8ff8;
+  color: #f95a03;
 }
 
 .form-title {
@@ -296,24 +296,24 @@ input[type=text]:placeholder {
   margin-bottom: 0px;
 }
 
-.form_manda-pitch input[type=text], .form_manda-pitch input[type=password], .form_manda-pitch input[type=date]{
+.form_smiles input[type=text], .form_smiles input[type=password], .form_smiles input[type=date]{
   min-width: 100%;
 }
 
-.form_manda-pitch input[type=submit] {
-  background-color: #ba8ff8;
+.form_smiles input[type=submit] {
+  background-color: #f95a03;
   color: white;
   width: 300px;
 }
 
 @media (max-width: 598px){
-  .form_manda-pitch input[type=submit] {
+  .form_smiles input[type=submit] {
     min-width: 100%;
     margin: 0px;
   }
 }
 
-.form_manda-pitch p {
+.form_smiles p {
   text-align: left;
 }
 
@@ -323,7 +323,7 @@ input[type=text]:placeholder {
 }
 
 .error {
-  color: #ba8ff8;
+  color: #f95a03;
   text-align: left;
   font-weight: bold;
 }

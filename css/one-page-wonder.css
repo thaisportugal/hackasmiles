@@ -68,7 +68,6 @@ h6 {
   font-size: 3rem;
   text-align: left;
   color: #f95a03;
-  width: 200px;
 
 }
 
@@ -82,7 +81,8 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  height: 100vh;
+/*  background-image: url("img/nuvens.svg");
+*/  height: 100vh;
 }
 
 header.masthead .masthead-content {
