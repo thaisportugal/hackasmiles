@@ -42,7 +42,7 @@ h6 {
 .navbar-custom {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(249, 90, 3);
 }
 
 .navbar-custom .navbar-brand {
@@ -61,6 +61,15 @@ h6 {
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  color: #FFFAFA;
+}
+
+.nav3 {
+  font-size: 3rem;
+  text-align: left;
+  color: #f95a03;
+  width: 200px;
+
 }
 
 header.masthead {
@@ -138,8 +147,8 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-primary {
-  background-color: #BA8FF8;
-  border-color: #BA8FF8;
+  background-color: #f95a03;
+  border-color: #f95a03;
 }
  
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
@@ -162,12 +171,12 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-secondary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 120, 47, 0.5);
 }
 
 .logo-header {
-  height: 400px;
-  margin-top: 80px;
+  height: 50px;
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 568px) {
