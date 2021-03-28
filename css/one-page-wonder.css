@@ -41,6 +41,16 @@ h6 {
   background-color: rgba(249, 90, 3);
 }
 
+.header-msg{
+
+  color: #ffffff
+}
+
+.header-msg2{
+
+  color: #f95a03;
+  font-size: 24px;
+}
 .navbar-custom .navbar-brand {
   text-transform: uppercase;
   font-size: 1rem;
@@ -82,6 +92,21 @@ header.masthead {
   height: 100vh;
 }
 
+.banner-topo {
+  position: relative;
+  overflow: hidden;
+  /* padding-top: calc(7rem + 72px); */
+  /* padding-bottom: 7rem; */
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+   background-image: url("../img/imguser.png");
+  height: 30vh;
+  margin-top: 95px;
+
+}
 
 
 header.masthead .masthead-content {
