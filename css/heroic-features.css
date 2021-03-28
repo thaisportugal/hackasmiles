@@ -20,6 +20,14 @@ body {
     height: 144px;
 }
 
+.card-img-perfil {
+
+    width: 30%;
+    padding: 0px 0px;
+    height: 144px;
+    border-radius: 70%;
+}
+
 m-0 {
  
   color: #f95a03;
@@ -83,11 +91,11 @@ m-0 {
     color: #F7F7F7;
 }
 
-/*a {
-    color: #ba8ff8;
+a {
+    color: #ffffff;
     text-decoration: none;
     background-color: transparent;
-}*/
+}
 
 
 @media (min-width: 992px)
@@ -104,7 +112,7 @@ m-0 {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: #f95a03;
 }
 .container {
     /* background-color: #ba8ff8; */
@@ -119,7 +127,7 @@ m-0 {
 }
 
 .bg-dark {
-    background-color: #212529!important;
+    background-color: #f95a03!important;
 }
 
 .jumbotron2 {
@@ -131,8 +139,9 @@ m-0 {
 
 .jumbotron2.jumbotron-custom {
  
-  background-image: linear-gradient(#f95a03, #f95a03, #ffffff);
-
+/*  background-image: linear-gradient(#fa7120, #f77d36, #ffffff);
+*/
+background-image: #ffffff;
 }
 
 .progress {

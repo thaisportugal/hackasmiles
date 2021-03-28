@@ -178,6 +178,11 @@ header.masthead .bg-circle-4 {
   margin-top: 0px;
 }
 
+.logo-dash {
+  height: 30px;
+  margin-top: 0px;
+}
+
 @media screen and (max-width: 568px) {
   .logo-header {
     width: 250px;
