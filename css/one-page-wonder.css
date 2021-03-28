@@ -108,6 +108,35 @@ header.masthead {
 
 }
 
+.banner-topo2 {
+  position: relative;
+  overflow: hidden;
+  /* padding-top: calc(7rem + 72px); */
+  /* padding-bottom: 7rem; */
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+   background-image: url("../img/group45.png");
+  height: 30vh;
+  margin-top: 95px;
+
+}
+
+.fonte1 {
+ font-size: 36px;
+
+}
+
+.fonte3 {
+ font-size: 25px;
+
+}
+
+.btn.b1 { 
+margin: 0px;
+ }
 
 header.masthead .masthead-content {
   z-index: 1;
