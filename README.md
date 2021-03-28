@@ -1,2 +1,2 @@
 # hacka_smiles
-Repositório criado para o Hackathon da CCR
+Repositório criado para o Hackathon da Smiles
