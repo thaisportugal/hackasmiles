@@ -1,5 +1,5 @@
 $(function(){
-  var $form = $('#transformaAiForm');
+  var $form = $('#weGoForm');
   if ($form.length) {
     $form.validate({
       rules:{

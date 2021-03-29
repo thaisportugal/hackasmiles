@@ -124,9 +124,31 @@ header.masthead {
 
 }
 
+.banner-topo4 {
+  position: relative;
+  overflow: hidden;
+  /* padding-top: calc(7rem + 72px); */
+  /* padding-bottom: 7rem; */
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+   background-image: url("../img/group58.png");
+  height: 47vh;
+  margin-top: 95px;
+  position: relative;
+
+}
+.banner-topo4 a{
+  position: absolute;
+  bottom: 55px;
+  left: 45px;
+}
+
 .fonte1 {
  font-size: 36px;
-
+color: #fa7120;
 }
 
 .fonte3 {
@@ -134,9 +156,18 @@ header.masthead {
 
 }
 
+.fonte2 {
+ color: #3c3c3c;
+ margin: 45px;
+}
+
 .btn.b1 { 
 margin: 0px;
  }
+
+.bt5 {
+  margin: 45px;
+}
 
 header.masthead .masthead-content {
   z-index: 1;
